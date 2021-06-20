@@ -2,14 +2,15 @@
 The objective of this project is to create a dynamic ELF library to replace (to a certain extent) the standard
 C library you use every day on your system.
 
-# Installation
-After cloning the repository enter the following command :
+## Build
 ```
 make
 ```
 After that you will be able to grab `libasm.so` at the root of this project.
 
-Here are the functions i have implemented in my MiniLibC :
+## Result
+
+Grade `A`
 
 <a href="https://github.com/tocola/MiniLibC/tree/main/src/strlen.asm"><img src="https://img.shields.io/badge/strlen-PASS-darkgreen.svg"></a><br>
 <a href="https://github.com/tocola/MiniLibC/tree/main/src/strchr.asm"><img src="https://img.shields.io/badge/strchr-PASS-darkgreen.svg"></a><br>
